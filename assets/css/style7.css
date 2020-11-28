@@ -1,0 +1,72 @@
+
+body {
+     background: #abc8ff;
+font-family: 'Source Sans Pro', sans-serif;
+font-style: normal;
+font-weight: 300;
+position: relative;
+}
+
+/* Typography
+------------------------------------- */
+
+h1,h2,h3,h4 {
+font-weight: 400;
+letter-spacing: 0.3rem;
+text-transform: uppercase;
+}
+
+h1 {
+color: #000;
+font-size: 1.8rem;
+font-weight: 700;
+}
+h3 {
+color: #444;
+font-size: 14px;
+letter-spacing: 4px;
+}
+
+
+img {
+width: 100%;
+max-width: 100%;
+}
+
+
+/* header section styles
+/* ========================================== */
+#header {
+
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    padding-top: 130px;
+    padding-bottom: 100px;
+    }
+
+#header .header-thumb {
+    background: #ffffff;
+    border: 10px solid #f9f9f9;
+    padding: 62px 20px 62px 20px;
+    }
+   
+   
+    
+.header-five {
+background: url('../img/header-five-bg.jpg') no-repeat;
+}
+.map-container {
+    overflow: hidden;
+    position: relative;
+    height: 0;
+  }
+
+  .map-container iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+  
